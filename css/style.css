@@ -1,0 +1,18 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+header, nav, section, article, aside, hgroup, figcaption, figure, span, footer {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
