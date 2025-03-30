@@ -8,8 +8,15 @@ html {
     font-size: 16px;
 }
 
+body {
+    width: 100vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
 header, nav, section, article, aside, hgroup, figcaption, figure, span, footer {
-    display: block;
+    display: block;    
 }
 
 img {

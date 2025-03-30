@@ -1,0 +1,84 @@
+.hero{
+    height: 700px;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Hero Title */
+.hero-title{
+    text-align: center;
+}
+.hero-title span {
+    color: white;   
+    text-shadow: 2px 2px 4px #000000;
+    display: inline-block;
+    font-size: 3.4rem;
+    animation: wave 10s ease-in-out infinite;
+}
+
+.hero-title span:nth-child(1) {
+    animation-delay: 0s;
+}
+.hero-title span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.hero-title span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+.hero-title span:nth-child(4) {
+    animation-delay: 1s;
+}
+
+/* End of Hero Title */
+
+.hero-btn{
+    width: auto;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;   
+   
+}
+.hero-btn:hover{
+    background-color: #3e8e41;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    top: 2px;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-title {
+        font-size: 4.5rem;
+    }  
+   
+}
+@media screen and (min-width: 1025px) {
+    .hero-title {
+        font-size: 5rem;
+    }  
+    .hero-title span {
+        font-size: 4rem;
+    }
+}

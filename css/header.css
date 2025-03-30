@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ddd;
+    background-color: rgb(235, 216, 124);
     padding-inline: 10px;
 }
 
@@ -16,12 +16,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    
     overflow-x: hidden;
     transition: 0.3s;
     z-index: 1;
     /* padding-top: 60px; */
-    background-color: rgba(220, 220, 220, 0.7);
+    background-color: rgb(235, 216, 124);
+    
 
 }
 
@@ -59,6 +60,7 @@ nav a {
     width: 100%;
     overflow: visible;   
     transition: none;
+    align-items: center;
 }
   .menu,
   .close-btn {
