@@ -9,10 +9,10 @@ html {
 }
 
 body {
-    width: 100vw;
+    /* width: 100vw; */
     text-align: center;
     font-family: 'Poppins', sans-serif;
-}}
+}
 
 header, nav, section, article, aside, hgroup, figcaption, figure, span, footer {
     display: block;    

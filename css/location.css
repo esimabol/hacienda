@@ -1,0 +1,15 @@
+.location {
+    padding-top:60px;
+    /* padding-bottom:40px; */
+    background-color:rgb(235, 216, 124) ;
+}
+
+.location h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.map-container {
+    width: 100%;
+    height: 300px;
+}
