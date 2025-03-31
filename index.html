@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
      <!-- Header Design -->
@@ -58,10 +59,23 @@
                 <h3>Imagen 3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci quis? Quisquam perspiciatis laboriosam aliquam veritatis non nostrum eaque accusamus? Voluptatibus cumque molestiae illo autem quas! Doloribus necessitatibus saepe ex!</p>
             </div>
-          
-
-        </article>
-       
+        </article>       
+     </section>
+     <section class="contact">
+        <h2>Contáctanos</h2>
+            <form>    
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa nombre completo" required>    
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa correo electrronico" required>    
+                <label for="phone">Telefono</label>
+                <input type="tel" id="phone" name="phone" placeholder="Telefono" required>    
+                <label for="message">Asunto</label>
+                <textarea id="message" name="message" rows="6" required></textarea>    
+                <button type="submit" class="form-btn">Enviar</button>
+                <button type="reset" class="form-btn">Borrar</button>
+            </form>
+    
      </section>
      
     <!-- Script files -->

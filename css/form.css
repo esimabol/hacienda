@@ -1,0 +1,88 @@
+.contact {
+    background-color: rgba(248, 248, 248, 1);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+}
+.contact form {
+    
+    padding: 20px;
+    border:.5px solid #333;
+    border-radius: 5px;
+   
+    max-width: 400px;
+    margin: auto;
+    /* text-align: left; */
+}
+
+h2 {
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    /* text-align: left; */
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: .5px solid #666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus{
+    border-color: hsl(220, 100%, 52%);
+    outline: none;
+}
+
+.form-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.form-btn:hover {
+    top:3px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+button[type="reset"] {
+    background-color: #f1f1f1;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+/* Styles for screens up to 768px */
+@media (min-width: 768px) {
+    .contact form{
+        max-width: 500px;       
+    }
+  
+}
+
+/* Styles for screens up to 1024px */
+@media screen and (min-width: 1024px) {
+    .contact form{
+        max-width: 600px;       
+    }
+  
+}
+   
+
+
