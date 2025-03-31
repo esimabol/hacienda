@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(235, 216, 124);
+    background-color: rgb(255 222 60);
     padding-inline: 10px;
 }
 
@@ -21,7 +21,7 @@
     transition: 0.3s;
     z-index: 1;
     /* padding-top: 60px; */
-    background-color: rgb(235, 216, 124);
+    background-color: rgb(255 222 60);
     
 
 }

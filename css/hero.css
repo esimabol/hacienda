@@ -38,7 +38,7 @@
 
 .hero-btn{
     width: auto;
-    background-color: #04AA6D;
+    background-color: hsl(120, 100%, 30%);
     border: none;
     border-radius: 5px;
     color: white;

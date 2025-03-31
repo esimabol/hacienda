@@ -73,6 +73,9 @@ button[type="reset"] {
     .contact form{
         max-width: 500px;       
     }
+    input[type="text"], input[type="email"], input[type="tel"], textarea{
+        margin-bottom: 25px;
+    }
   
 }
 
@@ -80,6 +83,9 @@ button[type="reset"] {
 @media screen and (min-width: 1024px) {
     .contact form{
         max-width: 600px;       
+    }
+    input[type="text"], input[type="email"], input[type="tel"], textarea{
+        margin-bottom: 35px;
     }
   
 }
