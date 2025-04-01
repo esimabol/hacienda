@@ -15,7 +15,7 @@
            
             <form action="login.php" method="post" class="form">
                 <h2 class="form-title">Iniciar Sesion</h2>
-                <input type="text" name="usuario" placeholder="Usuario" required>                         
+                <input type="text" name="usuario" placeholder="Usuario" required id="usuario">                         
                 <input type="password" name="password" placeholder="Contraseña" required>
                 <span id="input_error"></span>
                 <input type="submit" name="enviar" value="Iniciar Sesion">
@@ -26,6 +26,11 @@
                 <p>Si olvido su contraseña presione <a href="#">Aquí</a></p>
             </small>            
         </footer>
-    </div>        
+    </div>   
+    <script>
+        window.onload = function() {
+            document.getElementById("usuario").focus();
+        };
+    </script>     
 </body>
 </html>
