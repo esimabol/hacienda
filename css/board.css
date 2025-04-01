@@ -1,0 +1,42 @@
+.board {
+    height:700px;
+    background-image: url('../img/cork-board.png');
+    border:10px solid #665f00;
+    position: relative;
+    padding: 20px;
+}
+
+.sticky-notes{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #ffeb3b;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    cursor: move;
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    transform: rotate(-3.5deg);
+    -webkit-transform: rotate(-3.5deg);
+    -moz-transform: rotate(-3.5deg);
+}
+
+.pin{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff1606;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    top: 10px;
+    left: 50%;
+}
+
+.sticky-notes p {
+  font-family: "The Girl Next Door", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+}

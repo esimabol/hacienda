@@ -35,3 +35,9 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  @media(min-width:1440px){
+    .modal-content {
+        width: 50%;
+    }
+  }

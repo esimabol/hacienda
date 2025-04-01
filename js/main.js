@@ -8,12 +8,12 @@ let closeBtn = document.querySelector('#close-btn');
 closeBtn.addEventListener('click', closeSideBar);
 
 // Get the modal
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
 window.onload = function() {
