@@ -4,10 +4,11 @@
     border:10px solid #665f00;
     position: relative;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .sticky-notes{
-    position: absolute;
+    position: relative;
     width: 250px;
     height: 250px;
     background-color: #ffeb3b;
@@ -20,6 +21,7 @@
     transform: rotate(-3.5deg);
     -webkit-transform: rotate(-3.5deg);
     -moz-transform: rotate(-3.5deg);
+    margin-bottom: 20px;
 }
 
 .pin{
