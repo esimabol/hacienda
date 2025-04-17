@@ -1,9 +1,11 @@
 .header {
+  background-color: hsl(50, 100%, 62%);
+}
+.header .container{
     height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: hsl(50, 100%, 62%);
+    align-items: center;   
     padding-inline: 10px;
 }
 

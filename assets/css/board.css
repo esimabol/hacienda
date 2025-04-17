@@ -1,5 +1,5 @@
 .board {
-    height:700px;
+    /* height:700px; */
     background-image: url('../img/cork-board.png');
     border:10px solid #665f00;
     position: relative;
@@ -7,6 +7,13 @@
     margin-bottom: 30px;
 }
 
+.board .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 100%;
+}
 .sticky-notes{
     position: relative;
     width: 250px;
@@ -35,6 +42,8 @@
     top: 10px;
     left: 50%;
 }
+
+
 
 .sticky-notes p {
   font-family: "The Girl Next Door", cursive;
