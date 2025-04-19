@@ -8,28 +8,27 @@
     <title>Login Hacienda</title> 
 </head>
 <body>        
-    <!-- <img src="img/nature.jpg" alt="Imagen de fondo pagina de inicio de sesion de la copripiedad hacienda condominio"> -->
-    <div class="card">
-        <div class="logo">
-            <img src="assets/img/logo_rm.png" alt="" width="170" height="60" class="icono">            
-           
-            <form action="login.php" method="post" class="form">
-                <h2 class="form-title">Iniciar Sesion</h2>
-                <input type="text" name="usuario" placeholder="Usuario" required id="usuario">                         
-                <input type="password" name="password" placeholder="Contraseña" required>
+    <div class="login">
+        <div class="form-container">
+            <img src="assets/img/logo_rm.png" alt="logo" class="logo">            
+            <h1 class="title">Iniciar Sesion</h1>
+
+            <form action="/"class="form">  
+                <label for="usuario" class="label">Usuario</label>             
+                <input type="text" name="usuario" placeholder="Usuario" class="input input-email" required>     
+                
+                <label for="password" class="label">Contraseña</label>
+                <input type="password" name="password" placeholder="Contraseña" class="input input-password" required>
+
                 <span id="input_error"></span>
-                <input type="submit" name="enviar" value="Iniciar Sesion">
+                <input type="submit" name="enviar" value="Iniciar Sesion" class="primary-button login-button">
+                <a href="/">Olvido su Contraseña</a>
             </form>
-        </div>
-        <footer class="footer">          
-            <small>
-                <p>Si olvido su contraseña presione <a href="#">Aquí</a></p>
-            </small>            
-        </footer>
+        </div>       
     </div>   
     <script>
         window.onload = function() {
-            document.getElementById("usuario").focus();
+            document.getElementsByClassName("usuario").focus();
         };
     </script>     
 </body>
