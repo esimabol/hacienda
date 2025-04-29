@@ -5,4 +5,15 @@
       font-size: inherit;
   }
 
- 
+  .contact-hero{
+    height: 300px;
+   
+ }
+
+ .main-contact{
+    padding-top:80px;
+    padding-bottom:80px;
+ }
+ /* .main-contact .container{
+    height: 500px;
+ } */
