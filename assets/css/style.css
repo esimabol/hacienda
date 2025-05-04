@@ -5,15 +5,30 @@
       font-size: inherit;
   }
 
-  .contact-hero{
-    height: 300px;
-   
+.contact-container {
+  height: 700px;
+  background-image: url(../img/contacto2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 20px;
+ 
+}
+
+.contact-form{
+    margin-top: 40px;
+}
+ 
+ .pagos-hero{
+    height: 500px;
+    background-image: url(../img/pago.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
  }
 
- .main-contact{
-    padding-top:80px;
-    padding-bottom:80px;
+ .main-contact, .main-pagos{
+    margin-top:80px;
+    margin-bottom:80px;
  }
- /* .main-contact .container{
-    height: 500px;
- } */
+ 
