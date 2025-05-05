@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/materialize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Hacienda Condominio</title>
     <link rel="icon" type="image/jpg" href="./assets/img/lcono.jpg"/>
 </head>
 <body>
     <!-- Header section -->
-    <header>
+    <header class="navbar-fixed">
         <nav class="white" role="navigation">
             <div class="nav-wrapper container"><a href="index.html" class="brand-logo">
                 <img class="responsive-img" src="./assets/img/logo.png" alt="Logo de la pagina web de hacienda condominio">
@@ -31,38 +32,53 @@
               <a href="#" data-target="nav-mobile" class="grey-text text-darken-4 sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
           </nav>
-    </header>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <h1 class="red-text text-darken-4">Bienvenidos a Hacienda Condominio</h1>
-            <p class="grey-text text-darken-4">Hacienda Condominio es un lugar donde la naturaleza y la comodidad se encuentran. Disfruta de un ambiente tranquilo y seguro.</p>
+    </header>    
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="./assets/img/hero.jpg"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
           </div>
-          <br>
-          <div class="col s12 m6 l6">          
-            <div class="carousel carousel-slider center">
-              <!-- <div class="carousel-fixed-item center">
-                <a class="btn waves-effect white grey-text darken-text-2">button</a>
-              </div> -->
-              <div class="carousel-item red white-text" href="#one!">
-                <img src="./assets/img/hero.jpg" alt="Imagen de Hacienda Condominio">
-              </div>
-              <div class="carousel-item amber white-text" href="#two!">
-                <img src="./assets/img/hero.jpg" alt="Imagen de Hacienda Condominio">
-              </div>
-              <div class="carousel-item green white-text" href="#three!">
-                <h2>Third Panel</h2>
-                <p class="white-text">This is your third panel</p>
-              </div>
-              <div class="carousel-item blue white-text" href="#four!">
-                <h2>Fourth Panel</h2>
-                <p class="white-text">This is your fourth panel</p>
-              </div>
-            </div>
-      </div>
+        </li>
+        <li>
+          <img src="https://placehold.co/800@2x.png"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://placehold.co/800@2x.png"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://placehold.co/800@2x.png"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div>
+        </li>
+      </ul>
     </section>
-    <footer class="page-footer red darken-4">
+    <section class="section no-pad-bot hero" id="index-banner">     
+        <div class="container">
+          <br><br>
+          <h1 class="header center amber-text text-accent-4">Bienvenidos A Hacienda Condominio</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">Hacienda Condominio es un lugar donde la naturaleza y la comodidad se encuentran. Disfruta de un ambiente tranquilo y seguro.</h5>
+          </div>
+          <div class="row center">
+            <a href="#" id="download-button" class="btn-large waves-effect waves-light amber accent-4">Ingresar</a>
+          </div>
+          <br><br>       
+        </div>    
+    </section>
+    <footer class="page-footer teal darken-4">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
