@@ -4,19 +4,16 @@
     $('.sidenav').sidenav();
     $('.tabs').tabs();
     $('.materialboxed').materialbox();
-    $('.carousel').carousel();
+    $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider({
       indicators: false
     });    
+     $('.tooltipped').tooltip();
     // Function to move to the next slide every 3 seconds
     // setInterval(function() {
     //   $('.carousel').carousel('next');
     // }, 3000);
-    // $('.carousel.carousel-slider').carousel({
-    //   fullWidth: true,
-    //   indicators: true
-    // 
-    //  // Adjust the interval as needed
+   
   
 
   }); // end of document ready

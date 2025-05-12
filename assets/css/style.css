@@ -33,3 +33,26 @@
     margin-bottom:80px;
  }
 
+ .manual{
+  height: 200px;
+ }
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background-color: rgba(3, 109, 99, 0.2);
+  
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: #333;
+}
+
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+  color: #333;
+ 
+}
+
+.tabs .indicator {  
+  background-color: #00840f;  
+}
