@@ -9,6 +9,7 @@
       indicators: false
     });    
      $('.tooltipped').tooltip();
+     $('.modal').modal();
     // Function to move to the next slide every 3 seconds
     // setInterval(function() {
     //   $('.carousel').carousel('next');
