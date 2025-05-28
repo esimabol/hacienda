@@ -56,3 +56,15 @@
 .tabs .indicator {  
   background-color: #00840f;  
 }
+
+
+#puerta_ingreso{
+  display: flex;
+  justify-content: space-around;
+
+  
+}
+#puerta_ingreso h5 {
+  font-weight: 500;
+  color: #333;
+}
