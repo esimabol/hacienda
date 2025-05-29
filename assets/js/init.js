@@ -11,12 +11,12 @@
      $('.tooltipped').tooltip();
      $('.modal').modal();
     
-    function ingreso() {
+     function ingreso() {
         let fecha = new Date();
         let mes = fecha.getMonth() + 1;
         let hora = fecha.getHours();
 
-        let porteria1Abierta = mes % 2 === 0 || (hora >= 6 && hora < 23);
+        let porteria1Abierta = mes % 2 === 0 || (hora >= 6 && hora < 22);
         let porteria2Abierta = mes % 2 !== 0;
 
         return {
@@ -25,16 +25,12 @@
         };
     }
 
-    function actualizarIngreso() {
-        let puertaDeIngreso = ingreso();
-        $('#puerta_ingreso').html(`
-            <h5 class="center">${puertaDeIngreso.puerta1}</h5>
-            <h5 class="center">${puertaDeIngreso.puerta2}</h5>
-        `);
-    }
-
-    // Ejecutar la actualización cada 5 segundos
-    setInterval(actualizarIngreso, 3000);
+    let puertaDeIngreso = ingreso();
+    $('#puerta_ingreso').html(`
+        <h5 class="center">${puertaDeIngreso.puerta1}</h5>
+        <h5 class="center">${puertaDeIngreso.puerta2}</h5>
+    `);
+   
   
 
   }); // end of document ready
