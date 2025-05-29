@@ -18,16 +18,16 @@
             </a>
               <ul class="right hide-on-med-and-down">
                 <li><a class="grey-text text-darken-4" href="index.html">Inicio</a></li>
-                <li><a class="grey-text text-darken-4" href="noticias.html">Noticias</a></li>
+                <li><a class="grey-text text-darken-4" href="noticias.html">Modulos</a></li>
                 <li><a class="grey-text text-darken-4" href="pagos.html">Pago</a></li>
-                <li><a class="grey-text text-darken-4" href="contacto.html">Directorio</a></li>
+                <li><a class="grey-text text-darken-4 modal-trigger" href="#modal2">Directorio</a></li>
               </ul>
         
               <ul id="nav-mobile" class="sidenav">
                 <li><a class="grey-text text-darken-4" href="index.html">Inicio</a></li>
-                <li><a class="grey-text text-darken-4" href="noticias.html">Noticias</a></li>
+                <li><a class="grey-text text-darken-4" href="noticias.html">Modulos</a></li>
                 <li><a class="grey-text text-darken-4" href="pagos.html">Pago</a></li>
-                <li><a class="grey-text text-darken-4" href="contacto.html">Directorio</a></li>
+                <li><a class="grey-text text-darken-4 modal-trigger" href="#modal2">Directorio</a></li>
               </ul>
               <a href="#" data-target="nav-mobile" class="grey-text text-darken-4 sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
@@ -96,7 +96,7 @@
           </div>
           <div class="col s12 m6">
            <div class="center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light green">Descargar</a>
+            <a href="./assets/documents/manual_convivencia_hacienda.pdf" target="_blank" id="download-button" class="btn-large waves-effect waves-light green">Descargar</a>
           </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
     <br>
     <section class="section grey lighten-5">
       <div class="container">
-        <h1 class="header center grey-text text-darken-3">Noticias</h1>
+        <h1 class="header center grey-text text-darken-3">Modulos</h1>
           <div class="row center">
             <h5 class="header col s12 light">Aquí encontraras las novedadades que acontecen en la copopriedad.</h5>            
           </div>
@@ -264,7 +264,7 @@
         <ul>
           <li><a href="#modal1" data-position="left" data-tooltip="Miembros del Consejo" class="btn tooltipped btn-floating modal-trigger red"><i class="material-icons">group</i></a></li>
           <li><a href="#modal2" data-position="left" data-tooltip="Directorio del Sector" class="btn modal-trigger tooltipped btn-floating yellow darken-1"><i class="material-icons">store_mall_directory</i></a></li>
-          <li><a href="#modal3" data-position="left" data-tooltip="Puerta de Ingreso" class="btn tooltipped btn-floating green modal-trigger"><i class="material-icons">report</i></a></li>
+          <li><a href="#modal3" data-position="left" data-tooltip="Puerta de Ingreso" class="btn tooltipped btn-floating green modal-trigger"><i class="material-icons">directions_car</i></a></li>
           <li><a data-position="left" data-tooltip="Anuncios Parroquiales" class="btn tooltipped btn-floating blue"><i class="material-icons">dvr</i></a></li>
         </ul>
      </div>
@@ -300,32 +300,35 @@
   <!-- Modal Directorio -->
    <div id="modal2" class="modal paginas-amarillas">
     <div class="modal-content">      
-      <h4>
-        Restaurantes
-        <i class="material-icons">restaurant</i>
-      </h4>
+      <h4>Restaurantes</h4>
       <ul class="collection">
         <li class="collection-item avatar">
-          <img src="images/yuna.jpg" alt="" class="circle">
-          <span class="title">Pizzeria</span>
-          <p>Portobello</p>            
-          <p>Telefono: 6561606</p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+          <img src="./assets/img/pizza.png" alt="icono de pizzeria" class="circle">
+          <span class="title"><strong>Pizzeria Portobello</strong></span>                
+          <p>Telefono: 6561606</p>          
         </li>
       </ul>
-     <h4>
-        Salud
-        <i class="material-icons">healing</i>
-      </h4>
+     <h4>Salud</h4>
+      <ul class="collection">
+        <li class="collection-item avatar">
+          <img src="./assets/img/hospital.png" alt="icono de pizzeria" class="circle">
+          <span class="title"><strong>Drogería La Botica</strong></span>                
+          <p>Telefono: 6561606</p>          
+        </li>
+      </ul>
     
-       <h4>
-        Hogar
-        <i class="material-icons">home</i>
-      </h4>
+       <h4>Hogar</h4>
+      <ul class="collection">
+        <li class="collection-item avatar">
+          <img src="./assets/img/ferreteria.png" alt="icono de ferreteria" class="circle">
+          <span class="title"><strong>Ferreteria De Jesus</strong></span>                
+          <p>Telefono: 300-691-3941</p>          
+        </li>
+      </ul>
      
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
     </div>
   </div>
   <!-- Modal Porteria de Ingreso -->
@@ -380,7 +383,6 @@
     <script src="./assets/js/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/materialize.js"></script>
     <script src="./assets/js/init.js"></script>
-    <script src="./assets/js/main.js"></script>
 
 </body>
 </html>
