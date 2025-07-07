@@ -19,8 +19,9 @@
     margin-top: 40px;
 }
  
- .pagos-hero{
+ .hero{
     height: 400px;
+    background-image: linear-gradient(180deg,#ffffff 0%,#e8eefc 100%);
   /* background-image: linear-gradient(to right bottom, #0f692e, #51874e, #82a672, #b1c69a, #dde7c6); */
     /* background-image: url(../img/pago.jpg);
     background-repeat: no-repeat;
@@ -60,4 +61,8 @@
 #puerta_ingreso h5 {
   font-weight: 500;
   color: #333;
+}
+
+.contacto{ 
+    background-image: linear-gradient(180deg,#ffffff 0%,#e8eefc 100%);
 }
