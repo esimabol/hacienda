@@ -23,15 +23,15 @@
       let puerta2Abierta = !puerta1Abierta; // Mes impar -> puerta 2 abierta siempre
 
       return {
-        puerta1: puerta1Abierta || (hora >= 6 && hora < 22) ? 'Ingreso Por la Porteria 1' : 'Porteria 1 Cerrada',
-        puerta2: puerta2Abierta || (hora >= 6 && hora < 22) ? 'Ingreso Por la Porteria 2' : 'Porteria 2 Cerrada'
+        puerta1: puerta1Abierta || (hora >= 6 && hora < 22) ? `<h6 class="section green-text text-darken-4 green lighten-4">Ingreso Por la Porteria 1</h6>` : `<h6 class="section red-text text-darken-4 red lighten-4">Porteria 1 Cerrada</h6>`,
+        puerta2: puerta2Abierta || (hora >= 6 && hora < 22) ? `<h6 class="section green-text text-darken-4 green lighten-4">Ingreso Por la Porteria 2</h6>` : `<h6 class="section red-text text-darken-4 red lighten-4">Porteria 2 Cerrada</h6>`
       };
     }
 
   let puertaDeIngreso = ingreso();
   $('#puerta_ingreso').html(`
-      <h5 class="center">${puertaDeIngreso.puerta1}</h5>
-      <h5 class="center">${puertaDeIngreso.puerta2}</h5>
+      <div class="section center">${puertaDeIngreso.puerta1}</div>
+      <div class="section center">${puertaDeIngreso.puerta2}</div>
   `);
    
   
