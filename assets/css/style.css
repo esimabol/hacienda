@@ -19,20 +19,7 @@
     margin-top: 40px;
 }
  
- .hero{
-    height: 400px;
-    background-image: linear-gradient(180deg,#ffffff 0%,#e8eefc 100%);
-  /* background-image: linear-gradient(to right bottom, #0f692e, #51874e, #82a672, #b1c69a, #dde7c6); */
-    /* background-image: url(../img/pago.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; */
- }
 
- .main-contact, .main-pagos{
-    margin-top:80px;
-    margin-bottom:80px;
- }
 
  .manual{
   height: 200px;
