@@ -1,15 +1,16 @@
 (function($){
   $(function(){
-
+    // Initialize all Materialize components
+    $('.collapsible').collapsible();
     $('.sidenav').sidenav();
     $('.tabs').tabs();
     $('.materialboxed').materialbox();
-    $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider({
       indicators: false
     });    
      $('.tooltipped').tooltip();
      $('.modal').modal();
+     
     
     function ingreso() {
       let fecha = new Date(); 
