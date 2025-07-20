@@ -50,6 +50,13 @@
   color: #333;
 }
 
-.contacto{ 
-    background-image: linear-gradient(180deg,#ffffff 0%,#e8eefc 100%);
-}
+/*Dark Mode concept:
+Background (main)	#121212	Deep black-gray for minimal eye strain
+Secondary Background	#1E1E1E	Used for cards and modular sections
+Accent Color	#A3D9A5	Soft green inspired by nature and harmony
+Primary Text	#E0E0E0	Light gray for optimal readability
+Secondary Text	#B0B0B0	Subtle contrast for less important info
+Action Buttons	#4CAF50 (Green)	Represents safety and natural guidance
+Hover & Highlight	#66BB6A	Slightly brighter green to indicate activity
+Borders/Dividers	#2C2C2C	Keeps structure without high contrast
+Link Text	#81C784	Distinct but harmonious green tone
