@@ -1,24 +1,13 @@
-.icon-block {
+/* .icon-block {
     padding: 0 15px;
   }
   .icon-block .material-icons {
       font-size: inherit;
-  }
+  } */
 
-.contact-container {
-  height: 700px;
-  background-image: url(../img/contacto2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin-top: 20px;
- 
-}
 
-.contact-form{
-    margin-top: 40px;
-}
- 
+
+
 
 
  .manual{
@@ -45,10 +34,7 @@
   background-color: #00840f;  
 }
 
-#puerta_ingreso h5 {
-  font-weight: 500;
-  color: #333;
-}
+
 
 /*Dark Mode concept:
 Background (main)	#121212	Deep black-gray for minimal eye strain
