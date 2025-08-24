@@ -1,5 +1,6 @@
 (function($){
   $(function(){
+    
     // Initialize all Materialize components
     $('.collapsible').collapsible();
     $('.sidenav').sidenav();
